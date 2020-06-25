@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electron Screen Recorder</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="render.js"></script>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+  </head>
+  <body>
+      <h1 class="text-white">Screen Recorder</h1>
+      <p></p>
+  
+      <video></video>
+
+      <div class="controls">
+        <button type="button" class="btn btn-info" id="videoSelectBtn">Choose a video source</button>
+        <button type="button" class="btn btn-success" id="startBtn">Start</button>
+        <button type="button" class="btn btn-danger" id="stopBtn">Stop</button>
+      </div>
+
+    <script>let $ = require('jquery');</script>
+    <script>require('popper.js');</script>
+    <script>require('bootstrap');</script>
+  </body>
+</html>

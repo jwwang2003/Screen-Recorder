@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  background-image: url("content/background.jpg");
+  height: 100%;
+  margin: 0;
+  font: caption;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+}
